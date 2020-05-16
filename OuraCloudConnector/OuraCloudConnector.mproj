@@ -12,14 +12,15 @@
     <AsAction>False</AsAction>
     <FastCombine>False</FastCombine>
     <ClearLog>False</ClearLog>
-    <ShowEngineTraces>False</ShowEngineTraces>
-    <ShowUserTraces>False</ShowUserTraces>
+    <ShowEngineTraces>True</ShowEngineTraces>
+    <ShowUserTraces>True</ShowUserTraces>
     <LegacyRedirects>False</LegacyRedirects>
     <SuppressRowErrors>False</SuppressRowErrors>
     <SuppressCellErrors>False</SuppressCellErrors>
     <MaxRows>1000</MaxRows>
     <ExtensionProject>Yes</ExtensionProject>
     <Name>OuraCloudConnector</Name>
+    <ThrowOnFoldingFailure>False</ThrowOnFoldingFailure>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>false</DebugSymbols>
